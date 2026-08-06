@@ -1,0 +1,26 @@
+{
+  "note": "counts are metal complexes only; apo peptides are a baseline, never a class",
+  "conformers_simulated": {
+    "1": 1099,
+    "2": 23586,
+    "3": 104169
+  },
+  "conformers_committed": {
+    "1": 1099,
+    "2": 23586,
+    "3": 69520
+  },
+  "conformers_simulated_total": 128854,
+  "conformers_committed_total": 94205,
+  "molecules": {
+    "1": 80,
+    "2": 1596,
+    "3": 6985
+  },
+  "molecules_table_rows": 9060,
+  "trimer_cap": 10,
+  "cap_seed": 0,
+  "spectral_bins": 791,
+  "float_format": "%.6g",
+  "provenance": "xtb"
+}

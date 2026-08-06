@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "irspectra"
+version = "1.0.0"
+description = "Predicting the bound metal of a peptide complex from its simulated IR spectrum, and testing whether that skill transfers from short peptides to long ones."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Sarah Kong", email = "skong29@amherst.edu" }]
+keywords = ["infrared-spectroscopy", "xtb", "metal-classification", "random-forest", "peptides"]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+tune = ["optuna"]        # tools/tune_rf_bo.py (Bayesian hyperparameter search)
+notebook = ["jupyterlab"]  # notebooks/figure_notebook.ipynb
+
+[tool.setuptools.packages.find]
+where = ["src"]

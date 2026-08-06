@@ -1,0 +1,17 @@
+{
+  "best_params": {
+    "max_features": 0.021967792119830847,
+    "min_samples_leaf": 1,
+    "min_samples_split": 10,
+    "max_depth": 40,
+    "class_weight": "balanced_subsample",
+    "n_estimators": 300
+  },
+  "search_macro_f1": 0.7895391708944961,
+  "sampler": "optuna.GPSampler (Gaussian-Process Bayesian optimization)",
+  "n_trials": 40,
+  "search_trees": 150,
+  "final_trees": 300,
+  "objective": "mean macro-F1, 5-fold StratifiedGroupKFold grouped by molecule",
+  "tuned_on": "per-conformer mono+di, 11847 conformers / 800 molecules"
+}

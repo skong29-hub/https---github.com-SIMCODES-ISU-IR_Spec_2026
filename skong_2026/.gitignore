@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+env/
+.ipython/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- pytest ---
+.pytest_cache/
+
+# --- Raw xTB tables: hundreds of MB, never committed. See data/README.md to obtain them. ---
+# Only tools/build_dataset.py reads these; everything else reads data/processed/.
+data/*.csv
+data/*.tsv
+data/raw/
+# superseded by the CSVs; build_dataset.py no longer writes them. Trailing comments are NOT
+# valid in .gitignore -- a '#' only starts a comment at the start of a line.
+data/**/*.npy
+data/**/*.npz
+
+# data/processed/*.csv and *.csv.gz ARE committed -- they are the dataset every script reads,
+# and the patterns above do not reach into the subdirectory.
+
+# --- Preview PNGs the scripts drop next to the SVGs ---
+figures/_v_*.png
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log

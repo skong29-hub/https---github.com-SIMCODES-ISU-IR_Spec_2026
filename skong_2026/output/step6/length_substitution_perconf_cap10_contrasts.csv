@@ -1,0 +1,35 @@
+contrast,desc,n_added,n_seeds,mean_diff,ci95,wilcoxon_p
+A2_trimer_add_trimer - A3_trimer_add_short,"headline: add trimer vs short, trimer anchor",0,10,0.0,0.0,
+A2_trimer_add_trimer - A3_trimer_add_short,"headline: add trimer vs short, trimer anchor",100,10,-0.001193548969628977,0.002032512305518562,0.193359375
+A2_trimer_add_trimer - A3_trimer_add_short,"headline: add trimer vs short, trimer anchor",200,10,-5.7874697362936266e-05,0.0024630959288776677,1.0
+A2_trimer_add_trimer - A3_trimer_add_short,"headline: add trimer vs short, trimer anchor",350,10,0.0021148755004010366,0.0032965073464212204,0.275390625
+A2_trimer_add_trimer - A3_trimer_add_short,"headline: add trimer vs short, trimer anchor",500,10,0.0025825197356223904,0.0022302637962131307,0.048828125
+A2_trimer_add_trimer - A3_trimer_add_short,"headline: add trimer vs short, trimer anchor",700,10,0.007327484798307371,0.003720679692562344,0.009765625
+A2_trimer_add_trimer - A3_trimer_add_short,"headline: add trimer vs short, trimer anchor",900,10,0.007953153526132396,0.00211622489306003,0.001953125
+A2_trimer_add_trimer - A3_trimer_add_short,"headline: add trimer vs short, trimer anchor",1200,10,0.012333111072026304,0.0035122600012334314,0.001953125
+A2_trimer_add_trimer - A3_trimer_add_short,"headline: add trimer vs short, trimer anchor",1600,10,0.018274792715791653,0.003888497660651758,0.001953125
+A1_short_add_trimer - A4_short_add_short,"add trimer vs short, short anchor",0,10,0.0,0.0,
+A1_short_add_trimer - A4_short_add_short,"add trimer vs short, short anchor",100,10,0.022322112033862106,0.003217048636527689,0.001953125
+A1_short_add_trimer - A4_short_add_short,"add trimer vs short, short anchor",200,10,0.029377416127957467,0.00499480254581782,0.001953125
+A1_short_add_trimer - A4_short_add_short,"add trimer vs short, short anchor",350,10,0.03757029488703319,0.0025547851099160645,0.001953125
+A1_short_add_trimer - A4_short_add_short,"add trimer vs short, short anchor",500,10,0.041670761231424526,0.0025433568762032684,0.001953125
+A1_short_add_trimer - A4_short_add_short,"add trimer vs short, short anchor",700,10,0.04638888725182522,0.0022529381468148315,0.001953125
+A2_trimer_add_trimer - A1_short_add_trimer,"trimer vs short anchor, add trimer",0,10,0.04711702847540259,0.006160600473444958,0.001953125
+A2_trimer_add_trimer - A1_short_add_trimer,"trimer vs short anchor, add trimer",100,10,0.027273909914857418,0.007566361454540022,0.001953125
+A2_trimer_add_trimer - A1_short_add_trimer,"trimer vs short anchor, add trimer",200,10,0.02082164428764908,0.006403766380115157,0.001953125
+A2_trimer_add_trimer - A1_short_add_trimer,"trimer vs short anchor, add trimer",350,10,0.013815248400706548,0.005102276264441073,0.001953125
+A2_trimer_add_trimer - A1_short_add_trimer,"trimer vs short anchor, add trimer",500,10,0.008581466935478777,0.005065224976468835,0.009765625
+A2_trimer_add_trimer - A1_short_add_trimer,"trimer vs short anchor, add trimer",700,10,0.007092645148375221,0.004885990101914666,0.02734375
+A2_trimer_add_trimer - A1_short_add_trimer,"trimer vs short anchor, add trimer",900,10,0.004401388640110549,0.0031372503016632294,0.02734375
+A2_trimer_add_trimer - A1_short_add_trimer,"trimer vs short anchor, add trimer",1200,10,0.0044185443758315455,0.00451395491558342,0.048828125
+A2_trimer_add_trimer - A1_short_add_trimer,"trimer vs short anchor, add trimer",1600,10,0.0038691616206488087,0.0026643296165479776,0.01953125
+A2_trimer_add_trimer - A1_short_add_trimer,"trimer vs short anchor, add trimer",2200,10,0.0031610685497872604,0.0019921737007176183,0.083984375
+A2_trimer_add_trimer - A1_short_add_trimer,"trimer vs short anchor, add trimer",3000,10,0.004243902852860937,0.0014432876307041047,0.00390625
+A2_trimer_add_trimer - A1_short_add_trimer,"trimer vs short anchor, add trimer",4000,10,0.0011676936133080851,0.0014470791817511393,0.275390625
+A2_trimer_add_trimer - A1_short_add_trimer,"trimer vs short anchor, add trimer",4788,10,0.0027562835408730946,0.0012708787480743267,0.005859375
+A3_trimer_add_short - A4_short_add_short,"trimer vs short anchor, add short",0,10,0.04711702847540259,0.006160600473444958,0.001953125
+A3_trimer_add_short - A4_short_add_short,"trimer vs short anchor, add short",100,10,0.0507895709183485,0.006839468049996305,0.001953125
+A3_trimer_add_short - A4_short_add_short,"trimer vs short anchor, add short",200,10,0.050256935112969484,0.006342617882662214,0.001953125
+A3_trimer_add_short - A4_short_add_short,"trimer vs short anchor, add short",350,10,0.0492706677873387,0.004692267941372163,0.001953125
+A3_trimer_add_short - A4_short_add_short,"trimer vs short anchor, add short",500,10,0.04766970843128091,0.005182259812840182,0.001953125
+A3_trimer_add_short - A4_short_add_short,"trimer vs short anchor, add short",700,10,0.04615404760189307,0.002895728994838389,0.001953125

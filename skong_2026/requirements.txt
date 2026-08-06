@@ -1,0 +1,15 @@
+# Core (needed to load data, run the pipeline, and build figures)
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+
+# Bayesian hyperparameter search (scripts/tune_rf_bo.py)
+optuna
+
+# Figure notebook (notebooks/figure_notebook.ipynb)
+jupyterlab
+
+# Tests
+pytest

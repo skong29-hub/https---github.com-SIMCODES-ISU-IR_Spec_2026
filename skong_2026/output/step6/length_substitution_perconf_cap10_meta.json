@@ -1,0 +1,71 @@
+{
+  "design": "2x2 anchor x added length, PER-CONFORMER, tested on held-out trimers",
+  "anchor_n_molecules": 800,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "test_seeds": [
+    20250722,
+    20250701,
+    20250702,
+    20250703,
+    20250704,
+    20250705,
+    20250706,
+    20250707,
+    20250708,
+    20250709
+  ],
+  "anchor_seeds": [
+    1001,
+    2002,
+    3003,
+    4004,
+    5005,
+    6006,
+    7007,
+    8008,
+    9009,
+    10010
+  ],
+  "grid_molecules": [
+    0,
+    100,
+    200,
+    350,
+    500,
+    700,
+    900,
+    1200,
+    1600,
+    2200,
+    3000,
+    4000
+  ],
+  "arms": [
+    "A1_short_add_trimer",
+    "A2_trimer_add_trimer",
+    "A3_trimer_add_short",
+    "A4_short_add_short"
+  ],
+  "trimer_ceiling_macro_f1_perconf": 0.7229078806246074,
+  "metric": "per-conformer macro_f1",
+  "grouping": "molecule",
+  "rf_params": {
+    "max_features": 0.021967792119830847,
+    "min_samples_leaf": 1,
+    "min_samples_split": 10,
+    "max_depth": 40,
+    "class_weight": "balanced_subsample",
+    "n_estimators": 300
+  }
+}

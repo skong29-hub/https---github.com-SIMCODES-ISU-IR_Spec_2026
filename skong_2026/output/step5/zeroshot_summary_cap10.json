@@ -1,0 +1,26 @@
+{
+  "monodi": {
+    "mean": 0.8141001461067953,
+    "ci95": 0.0056979574925429466
+  },
+  "trimer_whole": {
+    "mean": 0.632724039899256,
+    "ci95": 0.0009666000082395358
+  },
+  "trimer_part": {
+    "mean": 0.6316383506361237,
+    "ci95": 0.0033182436811040107
+  },
+  "n_seeds": 10,
+  "metric": "macro_f1",
+  "aggregate": "none",
+  "mean_test_conformers": 3331.8,
+  "rf_params": {
+    "max_features": 0.021967792119830847,
+    "min_samples_leaf": 1,
+    "min_samples_split": 10,
+    "max_depth": 40,
+    "class_weight": "balanced_subsample",
+    "n_estimators": 300
+  }
+}
